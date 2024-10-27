@@ -1,17 +1,10 @@
 package projects.f5.person_java;
 
-/**
- * Hello world!
- */
-public final class App {
-    private App() {
+public class App {
+    public static void main(String[] args) {
+        Person person = new Person("Nadiia", "Alaieva", "FD12334", 1989, "Ukraine", 'F');
+
+        person.printDetails();
     }
 
-    /**
-     * Says hello to the world.
-     * @param args The arguments of the program.
-     */
-    public static void main(String[] args) {
-        System.out.println("Hello World!");
-    }
 }
