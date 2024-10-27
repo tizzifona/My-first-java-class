@@ -34,6 +34,14 @@ public class Person {
         return birthYear;
     }
 
+    public String getCountryOfBirth() {
+        return countryOfBirth;
+    }
+
+    public char getGender() {
+        return gender;
+    }
+
     public void printDetails() {
         System.out.println("Name: " + firstName + " " + lastName);
         System.out.println("ID Number: " + idNumber);
