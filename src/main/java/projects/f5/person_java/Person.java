@@ -13,6 +13,22 @@ public class Person {
         this.birthYear = birthYear;
     }
 
+    public String getFirstName() {
+        return firstName;
+    }
+
+    public String getLastName() {
+        return lastName;
+    }
+
+    public String getIdNumber() {
+        return idNumber;
+    }
+
+    public int getBirthYear() {
+        return birthYear;
+    }
+
     public void printDetails() {
         System.out.println("Name: " + firstName + " " + lastName);
         System.out.println("ID Number: " + idNumber);
